@@ -3031,13 +3031,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: #ff0611;
+  border-color: #ff0611;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #d9aa00;
-  border-color: #cca000;
+  background-color: #fad02c;
+  border-color: #fad02c;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -11362,8 +11362,9 @@ p {
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 0.95rem;
-  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: #ff0611;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -11383,7 +11384,7 @@ p {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 2rem;
+    height: 2.5rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -11396,7 +11397,7 @@ p {
   }
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
-    height: 1.5rem;
+    height: 2.5rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
@@ -11443,10 +11444,10 @@ header.masthead .masthead-heading {
     margin-bottom: 2rem;
   }
   header.masthead .masthead-heading {
-    font-size: 4.5rem;
-    font-weight: 700;
-    line-height: 4.5rem;
-    margin-bottom: 4rem;
+    font-size: 4.0  rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+    margin-bottom: 2.5rem;
   }
 }
 #portfolio .portfolio-item {
@@ -11712,6 +11713,7 @@ header.masthead .masthead-heading {
 .team-member h4, .team-member .h4 {
   margin-top: 1.5rem;
   margin-bottom: 0;
+  color: #fad02c;
 }
 
 .img-brand {
@@ -11725,7 +11727,7 @@ section#contact {
   background-position: center;
 }
 section#contact .section-heading {
-  color: #fff;
+  color: #fad02c;
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
@@ -11779,11 +11781,19 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .junk-phone, .junk-phone a {
-  color: #ffc800 !important;
-  font-size: 1.5em;
+  color: #fad02c !important;
+  font-size: 1.2em !important;
 }
 
 .btn, .btn a {
   color: #000 !important;
   font-size: 2em;
+}
+
+#services {
+  background-color: #fad02c;
+}
+
+.service-caret {
+  color: #ff0611;
 }
